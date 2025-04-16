@@ -1,3 +1,4 @@
+#include "CStyle/CStyleSolution.hpp"
 #include "Modern/ModernSolution.hpp"
 
 #include <iostream>
@@ -9,7 +10,7 @@ std::vector<int> readFile() {
     std::vector<int> data;
     std::copy(
         std::istream_iterator<int>(fileInput),
-        std::istream_iterator<int>(),
+		std::istream_iterator<int>(),
         std::back_inserter(data)
         );
 
@@ -19,6 +20,11 @@ std::vector<int> readFile() {
 int main() {
     std::cout << "Modern C++ Solution" << std::endl;
     ModernSolution::run(readFile());
+
+	std::cout << std::endl;
+ 
+    std::cout << "C-Style Solution" << std::endl;
+    CStyleSolution::run(readFile());
 
     return 0;
 }
