@@ -1,5 +1,5 @@
-#ifndef IMPERATIVESOLUTION_H
-#define IMPERATIVESOLUTION_H
+#ifndef CSTYLESOLUTION_HPP
+#define CSTYLESOLUTION_HPP
 
 #include <vector>
 
@@ -29,4 +29,4 @@ void run(const std::vector<int>& data);
 
 }
 
-#endif // IMPERATIVESOLUTION_H
+#endif // CSTYLESOLUTION_HPP

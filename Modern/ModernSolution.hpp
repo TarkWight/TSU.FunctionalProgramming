@@ -1,5 +1,5 @@
-#ifndef MODERNSOLUTION_H
-#define MODERNSOLUTION_H
+#ifndef MODERNSOLUTION_HPP
+#define MODERNSOLUTION_HPP
 
 #include <vector>
 #include <memory>
@@ -26,4 +26,4 @@ void run(const std::vector<int>& data);
 
 }; // namespace ModernSolution
 
-#endif // MODERNSOLUTION_H
+#endif // MODERNSOLUTION_HPP

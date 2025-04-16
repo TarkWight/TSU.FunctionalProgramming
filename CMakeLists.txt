@@ -9,6 +9,8 @@ add_executable(Module5
     main.cpp
     Modern/ModernSolution.cpp
     Modern/ModernSolution.hpp
+    CStyle/CStyleSolution.cpp
+    CStyle/CStyleSolution.hpp
 )
 
 include(GNUInstallDirs)
