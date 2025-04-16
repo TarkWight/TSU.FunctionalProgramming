@@ -6,7 +6,9 @@ set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 add_executable(Module5
-
+    main.cpp
+    Modern/ModernSolution.cpp
+    Modern/ModernSolution.hpp
 )
 
 include(GNUInstallDirs)
